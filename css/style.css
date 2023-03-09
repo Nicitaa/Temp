@@ -1,0 +1,19 @@
+body {
+  background-color: #202020;
+  color: white;
+}
+.work_steps .cards {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(31%, 1fr));
+}
+.work_steps .cards .card {
+  background-color: #202020;
+  border: none;
+}
+.work_steps .cards .card svg,
+.work_steps .cards .card img {
+  -webkit-filter: brightness(0) saturate(100%);
+          filter: brightness(0) saturate(100%);
+  width: 15vh;
+}
